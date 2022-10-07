@@ -1,0 +1,15 @@
+*.pyc
+.env
+venv/
+*/migrations/*
+logs/*
+.idea/*
+!**/__pycache__/
+*.pot
+*/*/*/__pycache__/
+*/*/__pycache__/
+*/__pycache__/
+!.gitignore
+'git rm --cached .'
+/migrations/*
+.idea/
